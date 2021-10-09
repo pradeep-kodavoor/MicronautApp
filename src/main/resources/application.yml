@@ -1,0 +1,14 @@
+micronaut:
+  application:
+    name: micronautApp
+  server:
+    port: 8083
+hello:
+  controller:
+    path: "/hello"
+  service:
+    greeting: "Hi there!"
+  config:
+    greeting:
+      de: "Hallo"
+      en: "Hello"
